@@ -1,0 +1,40 @@
+body{
+    background-color: orchid;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100hv;
+
+}
+
+.form-container{
+    padding: 30px;
+    background-color: rgb(47, 182, 255);   
+}
+
+   label{
+    display: block;
+    text-align: left;
+    margin-bottom:10px ;
+    font-weight: bold;
+    color: deeppink;
+}
+button{
+    background-color:yellow ;
+    color: azure;
+    border: none;
+    width: 100px; 
+    font-size: large;
+    cursor: pointer;
+}
+button:hover {
+    background-color: aqua;
+}
